@@ -1,0 +1,46 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  display:flex;
+  background-color: lavender;
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1{
+  display:flex;
+  align-items: center;
+  background-color:purple;
+  padding: 20px;
+  margin: 50px;
+  color: white;
+  font-size: 50px;
+}
+
+.new {
+  display: flex;
+  background-color: cornsilk;
+  margin:20px;
+}
+
+#checkbox{
+  margin:5px;
+}
+
+head {
+  flex-direction: column;
+  justify-content: center;
+}
+
+form{
+  justify-content: center;
+}
+
+@media screen and (max-width:500px){
+  .item{
+    align-items: center;
+  }
+}
